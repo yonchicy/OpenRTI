@@ -32,7 +32,8 @@ enable_language(C)
 
 # Starting with cmake 3.1 we can easily change the
 # c++ standard version using
-# set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Some whole project sensible defines
 if(UNIX)
